@@ -26,7 +26,7 @@ const startServer = async () => {
 
     const HTTP_PORT = process.env.PORT || 8080;
     app.listen(HTTP_PORT, () => {
-      logger.info(`Server running on: http://localhost:${HTTP_PORT}`);
+      console.log(`Server running on: http://localhost:${HTTP_PORT}`);
     });
   } catch (error) {
     logger.error('Unable to start server:', error);

@@ -1,0 +1,41 @@
+2024-08-08T03:22:15.766Z [debug]: Logging initialized at debug level
+2024-08-08T03:22:16.598Z [info]: MongoDB connected successfully
+2024-08-08T03:22:16.601Z [info]: Server running on: http://localhost:8080
+2024-08-08T16:08:46.698Z [debug]: Logging initialized at debug level
+2024-08-08T16:09:16.963Z [error]: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-08-08T16:09:32.563Z [debug]: Logging initialized at debug level
+2024-08-08T16:10:02.768Z [error]: MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2024-08-08T16:12:19.304Z [debug]: Logging initialized at debug level
+2024-08-08T16:12:23.547Z [info]: MongoDB connected successfully
+2024-08-08T16:12:23.550Z [info]: Server running on: http://localhost:8080
+2024-08-09T18:45:48.800Z [debug]: Logging initialized at debug level
+2024-08-09T18:45:49.735Z [info]: MongoDB connected successfully
+2024-08-09T18:45:49.742Z [info]: Server running on: http://localhost:8080
+2024-08-10T06:23:56.580Z [debug]: Logging initialized at debug level
+2024-08-10T06:23:57.488Z [info]: MongoDB connected successfully
+2024-08-12T18:58:04.887Z [debug]: Logging initialized at debug level
+2024-08-12T18:58:05.751Z [info]: MongoDB connected successfully
+2024-08-12T19:38:25.055Z [debug]: Logging initialized at debug level
+2024-08-12T19:38:25.886Z [info]: MongoDB connected successfully
+2024-08-13T00:14:28.445Z [debug]: Logging initialized at debug level
+2024-08-13T00:14:29.327Z [info]: MongoDB connected successfully
+2024-08-13T01:27:26.510Z [debug]: Logging initialized at debug level
+2024-08-13T01:27:27.382Z [info]: MongoDB connected successfully
+2024-08-13T04:32:09.353Z [debug]: Logging initialized at debug level
+2024-08-13T04:32:10.162Z [info]: MongoDB connected successfully
+2024-08-13T06:00:56.467Z [debug]: Logging initialized at debug level
+2024-08-13T06:00:57.301Z [info]: MongoDB connected successfully
+2024-08-13T07:53:08.255Z [debug]: Logging initialized at debug level
+2024-08-13T07:53:09.154Z [info]: MongoDB connected successfully
+2024-08-13T13:36:45.669Z [debug]: Logging initialized at debug level
+2024-08-13T13:36:46.526Z [info]: MongoDB connected successfully
+2024-08-13T15:27:39.106Z [debug]: Logging initialized at debug level
+2024-08-13T15:27:39.948Z [info]: MongoDB connected successfully
+2024-08-13T18:35:52.493Z [debug]: Logging initialized at debug level
+2024-08-13T18:35:53.589Z [info]: MongoDB connected successfully
+2024-08-13T19:15:22.913Z [debug]: Logging initialized at debug level
+2024-08-13T19:15:23.882Z [info]: MongoDB connected successfully
+2024-08-13T20:53:33.274Z [debug]: Logging initialized at debug level
+2024-08-13T20:53:34.207Z [info]: MongoDB connected successfully
+2024-08-14T22:54:02.578Z [debug]: Logging initialized at debug level
+2024-08-14T22:54:03.696Z [info]: MongoDB connected successfully

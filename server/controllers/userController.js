@@ -31,7 +31,7 @@ async function login(req, res) {
     if (!isMatch) {
       return res.status(400).json({ message: 'Invalid credentials' });
     }
-    const payload = { _id: user._id, username: user.username };
+    const payload = { _id: user._id, username: user.username, role: user.role };
     const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1h' });
     res.status(200).json({ token, message: 'Login successful' });
   } catch (error) {
@@ -104,7 +104,7 @@ async function addHistory(req, res) {
     const { route } = req.body;
     user.history.push({ route });
     await user.save();
-    res.status(200).json({ message: 'Route added to history', history: user.history });
+    res.status(200).json({ history: user.history, message: 'Route added to history' });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
