@@ -110,7 +110,6 @@ async function addHistory(req, res) {
   }
 }
 
-
 async function removeHistory(req, res) {
   try {
     const { routeId } = req.params;
@@ -129,6 +128,24 @@ async function removeHistory(req, res) {
   }
 }
 
+async function removeAllHistory(req, res) {
+  try {
+    const user = await User.findOneAndUpdate(
+      { _id: req.user._id },
+      { $set: { history: [] } }, // Clear the history array
+      { new: true }
+    );
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+    
+    res.status(200).json({ message: 'All history removed', history: user.history });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+}
+
 module.exports = {
   register,
   login,
@@ -137,5 +154,6 @@ module.exports = {
   removeFavorite,
   getUserHistory,
   addHistory,
-  removeHistory
+  removeHistory,
+  removeAllHistory
 };

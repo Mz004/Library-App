@@ -14,6 +14,7 @@ router.delete('/favorites/:id', passport.authenticate('jwt', { session: false })
 
 router.get('/history', passport.authenticate('jwt', { session: false }), userController.getUserHistory);
 router.post('/history', passport.authenticate('jwt', { session: false }), userController.addHistory);
+router.delete('/history', passport.authenticate('jwt', { session: false }), userController.removeAllHistory);
 router.delete('/history/:routeId', passport.authenticate('jwt', { session: false }), userController.removeHistory);
 
 module.exports = router;
